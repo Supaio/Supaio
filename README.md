@@ -1,7 +1,7 @@
 - # 👋 Hi, I’m @Supaio, an ordinary computer science student.
 ## The number of people who have currently visited this page：
 ![Visitor Count](https://profile-counter.glitch.me/Supaio/count.svg)
-## Frequently using languageL
+## Frequently using language
 ![decription](https://img.shields.io/badge/tools-VisualStudioCode-cyan)<br>
 ## Platform
 ![decription](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)<br>
