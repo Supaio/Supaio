@@ -2,7 +2,7 @@
 ## The number of people who have currently visited this page：
 ![Visitor Count](https://profile-counter.glitch.me/Supaio/count.svg)
 ## Frequently using language
-![decription](https://img.shields.io/badge/tools-VisualStudioCode-cyan)<br>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Supaio&layout=compact)](https://github.com/Supaio/github-readme-stats)
 ## Platform
 ![decription](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)<br>
 ## Skills
