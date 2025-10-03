@@ -2,7 +2,7 @@
 ## The number of people who have currently visited this page：
 
 <div align="center">
-[![Visitor Count](https://visitcount.itsvg.in/api?id=Supaio&icon=0&color=0)](https://visitcount.itsvg.in)
+![](https://komarev.com/ghpvc/?username=Supaio&style=for-the-badge&color=blue&label=PROFILE+VIEWS)
 </div>
 
 ## Frequently using language
