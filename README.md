@@ -1,6 +1,6 @@
 - # 👋 Hi, I’m @Supaio, an ordinary computer science student.
 ## The number of people who have currently visited this page：
-![Visitor Count](https://profile-counter.glitch.me/Supaio/count.svg)
+![Profile Views](https://komarev.com/ghpvc/?username=Supaio&color=blue)
 ## Frequently using language
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Supaio&layout=compact)](https://github.com/Supaio/github-readme-stats)
 ## Platform
