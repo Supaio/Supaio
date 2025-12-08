@@ -1,3 +1,4 @@
+- # 垃圾GitHub，不通过我的教育认证！垃圾GitHub，不通过我的教育认证！垃圾GitHub，不通过我的教育认证！
 - # 👋 Hi, I’m @Supaio, an ordinary computer science student.
 ## The number of people who have currently visited this page：
 
