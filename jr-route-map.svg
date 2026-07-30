@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Supaio Development Line</title>
+  <desc id="desc">A JR-inspired route map connecting Foundations, C, Python, Go and Systems.</desc>
+
+  <defs>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#101820" flood-opacity=".16"/>
+    </filter>
+    <style>
+      .latin { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .jp { font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="20" y="20" width="1160" height="210" rx="18" fill="#f8faf9" stroke="#cbd5d0" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="20" y="20" width="1160" height="14" rx="7" fill="#00a040"/>
+
+  <text class="latin" x="64" y="70" fill="#202a35" font-size="17" font-weight="800" letter-spacing="2">DEVELOPMENT LINE</text>
+  <text class="jp" x="1138" y="70" text-anchor="end" fill="#65716b" font-size="15" font-weight="600">開発線・各駅停車</text>
+
+  <!-- The line and all five station centers share y=126. -->
+  <path d="M140 126H1060" stroke="#00a040" stroke-width="14" stroke-linecap="round"/>
+
+  <g>
+    <circle cx="160" cy="126" r="29" fill="#ffffff" stroke="#00a040" stroke-width="8"/>
+    <text class="latin" x="160" y="132" text-anchor="middle" fill="#202a35" font-size="15" font-weight="900">CS</text>
+    <text class="latin" x="160" y="181" text-anchor="middle" fill="#202a35" font-size="17" font-weight="800">FOUNDATIONS</text>
+    <text class="latin" x="160" y="202" text-anchor="middle" fill="#758078" font-size="12">CS 01</text>
+  </g>
+
+  <g>
+    <circle cx="380" cy="126" r="29" fill="#ffffff" stroke="#00a040" stroke-width="8"/>
+    <text class="latin" x="380" y="132" text-anchor="middle" fill="#202a35" font-size="18" font-weight="900">C</text>
+    <text class="latin" x="380" y="181" text-anchor="middle" fill="#202a35" font-size="17" font-weight="800">C</text>
+    <text class="latin" x="380" y="202" text-anchor="middle" fill="#758078" font-size="12">CS 02</text>
+  </g>
+
+  <g>
+    <circle cx="600" cy="126" r="29" fill="#ffffff" stroke="#00a040" stroke-width="8"/>
+    <text class="latin" x="600" y="132" text-anchor="middle" fill="#202a35" font-size="15" font-weight="900">PY</text>
+    <text class="latin" x="600" y="181" text-anchor="middle" fill="#202a35" font-size="17" font-weight="800">PYTHON</text>
+    <text class="latin" x="600" y="202" text-anchor="middle" fill="#758078" font-size="12">CS 03</text>
+  </g>
+
+  <g>
+    <circle cx="820" cy="126" r="29" fill="#ffffff" stroke="#00a040" stroke-width="8"/>
+    <text class="latin" x="820" y="132" text-anchor="middle" fill="#202a35" font-size="15" font-weight="900">GO</text>
+    <text class="latin" x="820" y="181" text-anchor="middle" fill="#202a35" font-size="17" font-weight="800">GO</text>
+    <text class="latin" x="820" y="202" text-anchor="middle" fill="#758078" font-size="12">CS 04</text>
+  </g>
+
+  <g>
+    <circle cx="1040" cy="126" r="29" fill="#ffffff" stroke="#00a040" stroke-width="8"/>
+    <text class="latin" x="1040" y="132" text-anchor="middle" fill="#202a35" font-size="15" font-weight="900">SY</text>
+    <text class="latin" x="1040" y="181" text-anchor="middle" fill="#202a35" font-size="17" font-weight="800">SYSTEMS</text>
+    <text class="latin" x="1040" y="202" text-anchor="middle" fill="#758078" font-size="12">CS 05</text>
+  </g>
+</svg>

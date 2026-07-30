@@ -9,7 +9,7 @@
 
   <img
     width="100%"
-    src="./jr-station.svg"
+    src="./assets/jr-station.svg"
     alt="Supaio Station — animated train arriving at the platform"
   />
 
