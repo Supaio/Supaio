@@ -1,15 +1,13 @@
 <!--
   Supaio · GitHub Profile README
   JR station-inspired theme — platform green × signal yellow × rail navy
-  Place this file in: Supaio/Supaio/README.md
-  Keep the companion SVG at: Supaio/Supaio/assets/jr-station.svg
 -->
 
 <div align="center">
 
   <img
     width="100%"
-    src="./assets/jr-station.svg"
+    src="https://raw.githubusercontent.com/Supaio/Supaio/main/jr-station.svg?v=4"
     alt="Supaio Station — animated train arriving at the platform"
   />
 
@@ -70,28 +68,11 @@
 
 ### Lines & Connections · 路線案内
 
-<table>
-  <tr>
-    <td align="center"><strong>JY</strong><br /><sub>Core Line</sub></td>
-    <td align="center">●</td>
-    <td align="center"><strong>C</strong><br /><sub>Low Level</sub></td>
-    <td align="center">●</td>
-    <td align="center"><strong>PY</strong><br /><sub>Python</sub></td>
-    <td align="center">●</td>
-    <td align="center"><strong>GO</strong><br /><sub>Go</sub></td>
-    <td align="center">●</td>
-    <td align="center"><strong>SYS</strong><br /><sub>Systems</sub></td>
-  </tr>
-  <tr>
-    <td colspan="9">
-      <img
-        src="https://capsule-render.vercel.app/api?type=rect&color=00A040&height=6&section=header"
-        width="100%"
-        alt=""
-      />
-    </td>
-  </tr>
-</table>
+<img
+  width="100%"
+  src="https://raw.githubusercontent.com/Supaio/Supaio/main/jr-route-map.svg?v=4"
+  alt="Supaio development line: Foundations, C, Python, Go and Systems"
+/>
 
 <p>
   <img
@@ -141,6 +122,11 @@
 
 <br />
 
+<!--
+GitHub Stats and Most Used Languages are temporarily hidden because the cards
+are currently empty. Remove this opening comment and the closing comment below
+to restore them later.
+
 <div align="center">
 
 ### Operation Record · 運行記録
@@ -180,6 +166,7 @@
 </div>
 
 <br />
+-->
 
 <div align="center">
 
@@ -220,6 +207,4 @@
     alt=""
   />
 
-  <sub>Thank you for traveling with Supaio · ご利用ありがとうございます</sub>
-
-</div>
+  <sub>Thank you for traveling with Supaio · ご利用
