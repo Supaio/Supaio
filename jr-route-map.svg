@@ -5,10 +5,10 @@
      role="img"
      aria-labelledby="title desc">
 
-  <title id="title">Supaio Development Line</title>
+  <title id="title">スパイオ開発線</title>
   <desc id="desc">
-    A Japanese railway next-station display with a blinking yellow signal
-    and a red arrow moving forward along a curved green route.
+    JR風の次駅案内表示。黄色い現在地表示が点滅し、
+    赤い矢印が緑色の路線に沿って進みます。
   </desc>
 
   <defs>
@@ -59,8 +59,10 @@
       .jp {
         font-family:
           "Noto Sans JP",
+          "Noto Sans CJK JP",
           "Yu Gothic",
           "Hiragino Sans",
+          Meiryo,
           "Microsoft YaHei",
           sans-serif;
       }
@@ -94,49 +96,37 @@
 
   <!-- left destination block -->
   <text
-    class="sans"
+    class="jp"
     x="76"
-    y="89"
+    y="103"
+    fill="#ffffff"
+    font-size="41"
+    font-weight="800"
+  >
+    開発線
+  </text>
+
+  <text
+    class="jp"
+    x="76"
+    y="176"
+    fill="#ffffff"
+    font-size="39"
+    font-weight="800"
+  >
+    基礎・システム
+  </text>
+
+  <text
+    class="jp"
+    x="335"
+    y="224"
+    text-anchor="end"
     fill="#ffffff"
     font-size="25"
-    font-weight="800"
-    letter-spacing="2"
+    font-weight="700"
   >
-    DEVELOPMENT
-  </text>
-
-  <text
-    class="sans"
-    x="76"
-    y="123"
-    fill="#ffffff"
-    font-size="25"
-    font-weight="800"
-    letter-spacing="2"
-  >
-    LINE
-  </text>
-
-  <text
-    class="sans"
-    x="76"
-    y="171"
-    fill="#ffffff"
-    font-size="34"
-    font-weight="800"
-  >
-    FOUNDATIONS
-  </text>
-
-  <text
-    class="sans"
-    x="76"
-    y="220"
-    fill="#ffffff"
-    font-size="34"
-    font-weight="800"
-  >
-    SYSTEMS
+    方面
   </text>
 
   <!-- vertical JR-style line color -->
@@ -150,41 +140,53 @@
 
   <!-- next station -->
   <text
-    class="sans"
+    class="jp"
     x="462"
-    y="97"
+    y="99"
     fill="#ffffff"
-    font-size="31"
+    font-size="37"
     font-weight="800"
-    letter-spacing="3"
   >
-    NEXT
+    次は
+  </text>
+
+  <text
+    class="jp"
+    x="820"
+    y="207"
+    text-anchor="middle"
+    fill="#ffffff"
+    font-size="96"
+    font-weight="800"
+    letter-spacing="10"
+  >
+    スパイオ
   </text>
 
   <text
     class="sans"
     x="820"
-    y="213"
+    y="252"
     text-anchor="middle"
     fill="#ffffff"
-    font-size="112"
-    font-weight="800"
-    letter-spacing="9"
+    font-size="22"
+    font-weight="700"
+    letter-spacing="6"
   >
     SUPAIO
   </text>
 
   <!-- right-side status -->
   <text
-    class="sans"
+    class="jp"
     x="1286"
     y="103"
     text-anchor="end"
     fill="#ffffff"
-    font-size="47"
-    font-weight="500"
+    font-size="42"
+    font-weight="700"
   >
-    NOW
+    現在
   </text>
 
   <text
@@ -201,15 +203,15 @@
   </text>
 
   <text
-    class="sans"
+    class="jp"
     x="1441"
-    y="143"
+    y="146"
     text-anchor="middle"
     fill="#ffffff"
     font-size="20"
     font-weight="700"
   >
-    TRACK
+    番線
   </text>
 
   <!-- route and arrow stay clipped inside the white information panel -->
@@ -328,14 +330,14 @@
       12
     </text>
     <text
-      class="sans"
+      class="jp"
       x="560"
-      y="320"
+      y="323"
       fill="#111111"
-      font-size="38"
+      font-size="48"
       font-weight="800"
     >
-      FOUNDATIONS
+      基礎
     </text>
   </g>
 
@@ -361,14 +363,14 @@
       10
     </text>
     <text
-      class="sans"
+      class="jp"
       x="711"
-      y="391"
+      y="395"
       fill="#111111"
-      font-size="54"
+      font-size="49"
       font-weight="800"
     >
-      C
+      C言語
     </text>
   </g>
 
@@ -396,12 +398,12 @@
     <text
       class="sans"
       x="893"
-      y="501"
+      y="500"
       fill="#111111"
-      font-size="54"
+      font-size="50"
       font-weight="800"
     >
-      PYTHON
+      Python
     </text>
   </g>
 
@@ -431,10 +433,10 @@
       x="1027"
       y="620"
       fill="#111111"
-      font-size="54"
+      font-size="52"
       font-weight="800"
     >
-      GO
+      Go
     </text>
   </g>
 
@@ -470,38 +472,38 @@
   </g>
 
   <text
-    class="sans"
+    class="jp"
     x="1115"
     y="773"
     fill="#111111"
-    font-size="54"
+    font-size="50"
     font-weight="800"
   >
-    SYSTEMS
+    システム
   </text>
 
   <!-- transfer information -->
   <g>
     <text
-      class="sans"
+      class="jp"
       x="72"
       y="483"
       fill="#111111"
-      font-size="29"
+      font-size="31"
       font-weight="800"
     >
-      CONNECTIONS
+      乗換えのご案内
     </text>
 
     <text
-      class="sans"
+      class="jp"
       x="72"
       y="522"
       fill="#333333"
       font-size="24"
       font-weight="500"
     >
-      Languages · Systems · Tooling
+      言語・システム・ツール
     </text>
 
     <rect
@@ -553,13 +555,13 @@
 
   <!-- footer note -->
   <text
-    class="sans"
+    class="jp"
     x="64"
     y="797"
     fill="#333333"
     font-size="17"
     font-weight="600"
   >
-    Travel times are symbolic. Progress may vary while learning.
+    所要時間は目安です。学習状況により変わります。
   </text>
 </svg>
