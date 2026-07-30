@@ -26,7 +26,7 @@
       .board-text { animation: board 8s steps(1,end) infinite; }
       @keyframes arrive {
         0% { transform: translateX(1270px); }
-        28%, 66% { transform: translateX(310px); }
+        28%, 66% { transform: translateX(610px); }
         100% { transform: translateX(-1050px); }
       }
       @keyframes blink {
@@ -39,7 +39,7 @@
       }
       @media (prefers-reduced-motion: reduce) {
         .train, .signal, .board-text { animation: none; }
-        .train { transform: translateX(310px); }
+        .train { transform: translateX(610px); }
       }
     </style>
   </defs>
