@@ -13,7 +13,7 @@
 
   <a href="https://github.com/Supaio">
     <img
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=900&color=67E8F9&center=true&vCenter=true&repeat=true&width=640&height=45&lines=Computer+Science+Student;C+%C2%B7+Python+%C2%B7+Go;Turning+curiosity+into+working+systems"
+      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=900&color=67E8F9&center=true&vCenter=true&repeat=true&width=640&height=45&lines=Computer+Science+Student;C+%C2%B7+Python+%C2%B7+Go;Turning+curiosity+into+working+systems;This+profile+is+made+by+ChatGPT."
       alt="Typing introduction"
     />
   </a>
