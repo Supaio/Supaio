@@ -1,112 +1,372 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1536"
+     height="470"
+     viewBox="0 0 1536 470"
+     role="img"
+     aria-labelledby="title desc">
+
   <title id="title">Supaio Station</title>
-  <desc id="desc">A JR-inspired station sign with an animated commuter train passing the platform.</desc>
+  <desc id="desc">
+    A Japanese railway station sign inspired by the classic Tokyo Station layout.
+  </desc>
 
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#edf7f2"/>
-      <stop offset="1" stop-color="#dcebe4"/>
-    </linearGradient>
-    <linearGradient id="trainBody" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.72" stop-color="#e8ecef"/>
-      <stop offset="1" stop-color="#cbd2d7"/>
+      <stop offset="0.72" stop-color="#fbfbfa"/>
+      <stop offset="1" stop-color="#f0f1ef"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
-      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#101820" flood-opacity=".22"/>
+
+    <linearGradient id="currentStation" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#13c9e8"/>
+      <stop offset="1" stop-color="#00a8ce"/>
+    </linearGradient>
+
+    <filter id="boardShadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow
+        dx="0"
+        dy="8"
+        stdDeviation="9"
+        flood-color="#000000"
+        flood-opacity=".48"
+      />
     </filter>
-    <clipPath id="scene">
-      <rect width="1200" height="360" rx="24"/>
-    </clipPath>
+
     <style>
-      .latin { font-family: Inter, "Segoe UI", Arial, sans-serif; }
-      .jp { font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif; }
-      .train { animation: arrive 10s cubic-bezier(.55,.05,.25,1) infinite; }
-      .signal { animation: blink 2s ease-in-out infinite; }
-      .board-text { animation: board 8s steps(1,end) infinite; }
-      @keyframes arrive {
-        0% { transform: translateX(1270px); }
-        28%, 66% { transform: translateX(610px); }
-        100% { transform: translateX(-1050px); }
+      .sans {
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
       }
-      @keyframes blink {
-        0%, 45% { opacity: 1; }
-        50%, 100% { opacity: .25; }
-      }
-      @keyframes board {
-        0%, 49% { opacity: 1; }
-        50%, 100% { opacity: .38; }
-      }
-      @media (prefers-reduced-motion: reduce) {
-        .train, .signal, .board-text { animation: none; }
-        .train { transform: translateX(610px); }
+
+      .jp {
+        font-family:
+          "Noto Sans JP",
+          "Yu Gothic",
+          "Hiragino Sans",
+          "Microsoft YaHei",
+          sans-serif;
       }
     </style>
   </defs>
 
-  <g clip-path="url(#scene)">
-    <rect width="1200" height="360" fill="url(#sky)"/>
-    <rect y="0" width="1200" height="15" fill="#00a040"/>
-    <rect y="15" width="1200" height="5" fill="#f5c400"/>
+  <!-- 黑色站牌外框 -->
+  <rect
+    width="1536"
+    height="470"
+    rx="12"
+    fill="#111111"
+  />
 
-    <!-- roof and platform architecture -->
-    <path d="M0 68H1200V84H0z" fill="#202a35"/>
-    <path d="M70 84h18v188H70zm346 0h18v188h-18zm690 0h18v188h-18z" fill="#66717c"/>
-    <path d="M0 264H1200V360H0z" fill="#bec5c9"/>
-    <path d="M0 272H1200V283H0z" fill="#f5c400"/>
-    <path d="M0 307H1200V319H0z" fill="#67717a"/>
-    <path d="M0 324H1200V332H0z" fill="#303840"/>
-    <path d="M0 346H1200V353H0z" fill="#303840"/>
+  <!-- 白色灯箱 -->
+  <g filter="url(#boardShadow)">
+    <rect
+      x="28"
+      y="24"
+      width="1480"
+      height="420"
+      fill="url(#panel)"
+      stroke="#333333"
+      stroke-width="5"
+    />
+  </g>
 
-    <!-- destination board -->
-    <g filter="url(#shadow)">
-      <rect x="815" y="42" width="300" height="81" rx="5" fill="#161d24"/>
-      <rect x="827" y="53" width="276" height="58" rx="2" fill="#202a35" stroke="#495560"/>
-      <circle class="signal" cx="847" cy="72" r="6" fill="#f5c400"/>
-      <text class="latin" x="864" y="77" fill="#f5c400" font-size="15" font-weight="700">LOCAL</text>
-      <text class="latin board-text" x="846" y="101" fill="#f6f8fa" font-size="17" font-weight="700">NOW  →  NEXT COMMIT</text>
-    </g>
+  <!-- 当前站编号 -->
+  <g>
+    <rect
+      x="365"
+      y="47"
+      width="148"
+      height="181"
+      rx="24"
+      fill="#111111"
+    />
 
-    <!-- station sign -->
-    <g filter="url(#shadow)">
-      <rect x="123" y="43" width="620" height="174" rx="9" fill="#ffffff" stroke="#202a35" stroke-width="5"/>
-      <rect x="123" y="43" width="620" height="23" rx="6" fill="#00a040"/>
-      <rect x="123" y="194" width="620" height="23" rx="6" fill="#00a040"/>
-      <circle cx="181" cy="130" r="34" fill="#fff" stroke="#00a040" stroke-width="7"/>
-      <text class="latin" x="181" y="124" text-anchor="middle" fill="#202a35" font-size="13" font-weight="700">CS</text>
-      <text class="latin" x="181" y="145" text-anchor="middle" fill="#00a040" font-size="17" font-weight="800">01</text>
-      <text class="latin" x="231" y="126" fill="#18212a" font-size="48" font-weight="800" letter-spacing="4">SUPAIO</text>
-      <text class="jp" x="234" y="163" fill="#45515c" font-size="21" font-weight="600">すぱいお駅 · SUPAIO STATION</text>
-      <path d="M570 104h117" stroke="#00a040" stroke-width="6" stroke-linecap="round"/>
-      <path d="M570 104l18-12v24z" fill="#00a040"/>
-      <text class="latin" x="628" y="92" text-anchor="middle" fill="#53606b" font-size="11" font-weight="700">NEXT</text>
-      <text class="latin" x="628" y="140" text-anchor="middle" fill="#18212a" font-size="16" font-weight="800">BUILD</text>
-      <text class="latin" x="628" y="160" text-anchor="middle" fill="#53606b" font-size="12">SYSTEMS LINE</text>
-    </g>
+    <text
+      class="sans"
+      x="439"
+      y="89"
+      text-anchor="middle"
+      fill="#ffffff"
+      font-size="38"
+      font-weight="800"
+      letter-spacing="3"
+    >
+      SUP
+    </text>
 
-    <!-- animated commuter train -->
-    <g class="train" filter="url(#shadow)">
-      <rect x="-750" y="170" width="830" height="121" rx="23" fill="url(#trainBody)" stroke="#7d8991" stroke-width="3"/>
-      <path d="M-750 202H80V222H-750z" fill="#00a040"/>
-      <path d="M-750 218H80V224H-750z" fill="#202a35"/>
-      <path d="M-735 179h100v35h-100zM-609 179h100v35h-100zM-483 179h100v35h-100zM-357 179h100v35h-100zM-231 179h100v35h-100z" fill="#263847"/>
-      <path d="M-102 179h111c27 0 50 20 56 45h-167z" fill="#263847"/>
-      <path d="M-744 232h794v46h-794z" fill="#f6f8fa" opacity=".68"/>
-      <path d="M-600 225v65m252-65v65m126-65v65" stroke="#8b969e" stroke-width="3"/>
-      <circle cx="-602" cy="289" r="13" fill="#26313a"/>
-      <circle cx="-220" cy="289" r="13" fill="#26313a"/>
-      <circle cx="52" cy="244" r="7" fill="#f5c400"/>
-      <text class="latin" x="-91" y="263" fill="#202a35" font-size="15" font-weight="800">LOCAL</text>
-    </g>
+    <rect
+      x="379"
+      y="96"
+      width="120"
+      height="116"
+      rx="8"
+      fill="#09bfe2"
+    />
 
-    <!-- foreground platform markings -->
-    <path d="M0 284H1200" stroke="#f8fafb" stroke-width="4" stroke-dasharray="42 25" opacity=".9"/>
-    <g fill="#00a040">
-      <path d="M118 294h92v8h-92z"/>
-      <path d="M502 294h92v8h-92z"/>
-      <path d="M892 294h92v8h-92z"/>
-    </g>
+    <rect
+      x="390"
+      y="107"
+      width="98"
+      height="94"
+      rx="3"
+      fill="#ffffff"
+    />
 
+    <text
+      class="sans"
+      x="439"
+      y="150"
+      text-anchor="middle"
+      fill="#181818"
+      font-size="31"
+      font-weight="800"
+    >
+      CS
+    </text>
+
+    <text
+      class="sans"
+      x="439"
+      y="191"
+      text-anchor="middle"
+      fill="#181818"
+      font-size="43"
+      font-weight="800"
+    >
+      01
+    </text>
+  </g>
+
+  <!-- 主站名 -->
+  <g fill="#111111">
+    <text
+      class="sans"
+      x="780"
+      y="156"
+      text-anchor="middle"
+      font-size="105"
+      font-weight="900"
+      letter-spacing="7"
+    >
+      SUPAIO
+    </text>
+
+    <text
+      class="jp"
+      x="780"
+      y="218"
+      text-anchor="middle"
+      font-size="39"
+      font-weight="800"
+      letter-spacing="10"
+    >
+      すぱいお
+    </text>
+  </g>
+
+  <!-- 右侧说明 -->
+  <g fill="#222222">
+    <text
+      class="sans"
+      x="1063"
+      y="102"
+      font-size="29"
+      font-weight="700"
+    >
+      Computer
+    </text>
+
+    <text
+      class="sans"
+      x="1063"
+      y="149"
+      font-size="29"
+      font-weight="700"
+    >
+      Science
+    </text>
+  </g>
+
+  <!-- 学生标记 -->
+  <g
+    class="jp"
+    font-size="42"
+    font-weight="800"
+    text-anchor="middle"
+  >
+    <rect
+      x="1288"
+      y="57"
+      width="62"
+      height="62"
+      rx="5"
+      fill="#ffffff"
+      stroke="#222222"
+      stroke-width="5"
+    />
+
+    <text
+      x="1319"
+      y="103"
+      fill="#222222"
+    >
+      学
+    </text>
+
+    <rect
+      x="1369"
+      y="57"
+      width="62"
+      height="62"
+      rx="5"
+      fill="#222222"
+    />
+
+    <rect
+      x="1375"
+      y="63"
+      width="50"
+      height="50"
+      rx="2"
+      fill="#ffffff"
+    />
+
+    <text
+      x="1400"
+      y="103"
+      fill="#222222"
+    >
+      生
+    </text>
+  </g>
+
+  <!-- 绿色线路方向带 -->
+  <path
+    d="M46 309 L104 268 H720 V350 H104 Z"
+    fill="#087f23"
+  />
+
+  <!-- 当前站青色标记 -->
+  <rect
+    x="720"
+    y="268"
+    width="96"
+    height="82"
+    fill="url(#currentStation)"
+  />
+
+  <!-- 右侧线路 -->
+  <rect
+    x="816"
+    y="268"
+    width="692"
+    height="82"
+    fill="#087f23"
+  />
+
+  <!-- 左侧相邻站 -->
+  <text
+    class="jp"
+    x="224"
+    y="330"
+    text-anchor="middle"
+    fill="#ffffff"
+    font-size="57"
+    font-weight="800"
+    letter-spacing="5"
+  >
+    好奇心
+  </text>
+
+  <!-- 右侧相邻站 -->
+  <text
+    class="jp"
+    x="1320"
+    y="330"
+    text-anchor="middle"
+    fill="#ffffff"
+    font-size="57"
+    font-weight="800"
+    letter-spacing="5"
+  >
+    構築
+  </text>
+
+  <!-- 左侧站号与英文名 -->
+  <g>
+    <rect
+      x="91"
+      y="365"
+      width="65"
+      height="65"
+      rx="5"
+      fill="#ffffff"
+      stroke="#09bfe2"
+      stroke-width="5"
+    />
+
+    <text
+      class="sans"
+      x="123.5"
+      y="392"
+      text-anchor="middle"
+      fill="#222222"
+      font-size="18"
+      font-weight="800"
+    >
+      CS
+    </text>
+
+    <text
+      class="sans"
+      x="123.5"
+      y="421"
+      text-anchor="middle"
+      fill="#222222"
+      font-size="27"
+      font-weight="800"
+    >
+      00
+    </text>
+
+    <text
+      class="sans"
+      x="176"
+      y="416"
+      fill="#222222"
+      font-size="42"
+      font-weight="500"
+    >
+      Curiosity
+    </text>
+  </g>
+
+  <!-- 当前站英文名 -->
+  <text
+    class="sans"
+    x="768"
+    y="420"
+    text-anchor="middle"
+    fill="#111111"
+    font-size="51"
+    font-weight="800"
+  >
+    Supaio
+  </text>
+
+  <!-- 右侧站英文名 -->
+  <text
+    class="sans"
+    x="1320"
+    y="416"
+    text-anchor="middle"
+    fill="#222222"
+    font-size="42"
+    font-weight="500"
+  >
+    Build
+  </text>
+
+</svg>
     <text class="latin" x="28" y="340" fill="#ffffff" font-size="13" font-weight="700" letter-spacing="2">PLATFORM 01 · KEEP CURIOSITY BEHIND THE YELLOW LINE</text>
   </g>
 </svg>
