@@ -47,6 +47,10 @@
       "
     />
 
+    <clipPath id="routeClip">
+      <rect x="41" y="279" width="1454" height="530"/>
+    </clipPath>
+
     <style>
       .sans {
         font-family: Inter, "Segoe UI", Arial, sans-serif;
@@ -61,55 +65,6 @@
           sans-serif;
       }
 
-      .moving-arrow {
-        transform-origin: 0 0;
-        transform: translate(1070px, 815px) rotate(-122deg);
-        animation: routeAdvance 9s linear infinite;
-      }
-
-      .signal {
-        animation: signalBlink 1.25s ease-in-out infinite;
-      }
-
-      @keyframes routeAdvance {
-        0%, 12% {
-          transform: translate(1070px, 815px) rotate(-122deg);
-        }
-        20% {
-          transform: translate(1040px, 760px) rotate(-122deg);
-        }
-        32% {
-          transform: translate(960px, 660px) rotate(-136deg);
-        }
-        47% {
-          transform: translate(830px, 540px) rotate(-145deg);
-        }
-        62% {
-          transform: translate(650px, 430px) rotate(-160deg);
-        }
-        76% {
-          transform: translate(390px, 340px) rotate(-166deg);
-        }
-        90%, 100% {
-          transform: translate(70px, 292px) rotate(-175deg);
-        }
-      }
-
-      @keyframes signalBlink {
-        0%, 100% {
-          opacity: 1;
-        }
-        50% {
-          opacity: .32;
-        }
-      }
-
-      @media (prefers-reduced-motion: reduce) {
-        .moving-arrow,
-        .signal {
-          animation: none;
-        }
-      }
     </style>
   </defs>
 
@@ -213,7 +168,7 @@
     text-anchor="middle"
     fill="#ffffff"
     font-size="112"
-    font-weight="850"
+    font-weight="800"
     letter-spacing="9"
   >
     SUPAIO
@@ -257,44 +212,98 @@
     TRACK
   </text>
 
-  <!-- route border and route band -->
-  <use
-    href="#routePath"
-    fill="none"
-    stroke="#3f4345"
-    stroke-width="142"
-    stroke-linecap="butt"
-    stroke-linejoin="round"
-  />
-
-  <use
-    href="#routePath"
-    fill="none"
-    stroke="#58bd49"
-    stroke-width="126"
-    stroke-linecap="butt"
-    stroke-linejoin="round"
-  />
-
-  <!-- animated red direction arrow -->
-  <g class="moving-arrow">
-    <path
-      d="
-        M -47 -22
-        H 4
-        V -39
-        L 54 0
-        L 4 39
-        V 22
-        H -47
-        Z
-      "
-      fill="#e60012"
-      stroke="#ffffff"
-      stroke-width="8"
+  <!-- route and arrow stay clipped inside the white information panel -->
+  <g clip-path="url(#routeClip)">
+    <use
+      href="#routePath"
+      fill="none"
+      stroke="#3f4345"
+      stroke-width="142"
+      stroke-linecap="butt"
       stroke-linejoin="round"
     />
 
+    <use
+      href="#routePath"
+      fill="none"
+      stroke="#58bd49"
+      stroke-width="126"
+      stroke-linecap="butt"
+      stroke-linejoin="round"
+    />
+
+    <!--
+      Native SVG transforms keep both the fallback and every animated frame
+      on the route. The arrow never uses the document origin.
+    -->
+    <g transform="translate(1065 790)">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="
+          1065 790;
+          1065 790;
+          1040 760;
+          960 660;
+          830 540;
+          650 430;
+          390 340;
+          70 292;
+          70 292
+        "
+        keyTimes="0;.10;.18;.32;.47;.62;.77;.92;1"
+        dur="9s"
+        repeatCount="indefinite"
+        calcMode="linear"
+      />
+
+      <animate
+        attributeName="opacity"
+        values="0;1;1;0"
+        keyTimes="0;.08;.88;1"
+        dur="9s"
+        repeatCount="indefinite"
+      />
+
+      <g transform="rotate(-122)">
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          values="
+            -122;
+            -122;
+            -122;
+            -136;
+            -145;
+            -160;
+            -166;
+            -175;
+            -175
+          "
+          keyTimes="0;.10;.18;.32;.47;.62;.77;.92;1"
+          dur="9s"
+          repeatCount="indefinite"
+          calcMode="linear"
+        />
+
+        <path
+          d="
+            M -47 -22
+            H 4
+            V -39
+            L 54 0
+            L 4 39
+            V 22
+            H -47
+            Z
+          "
+          fill="#e60012"
+          stroke="#ffffff"
+          stroke-width="8"
+          stroke-linejoin="round"
+        />
+      </g>
+    </g>
   </g>
 
   <!-- station 12 -->
@@ -314,16 +323,16 @@
       text-anchor="middle"
       fill="#111111"
       font-size="43"
-      font-weight="850"
+      font-weight="800"
     >
       12
     </text>
     <text
       class="sans"
-      x="453"
-      y="302"
+      x="560"
+      y="320"
       fill="#111111"
-      font-size="39"
+      font-size="38"
       font-weight="800"
     >
       FOUNDATIONS
@@ -347,7 +356,7 @@
       text-anchor="middle"
       fill="#111111"
       font-size="43"
-      font-weight="850"
+      font-weight="800"
     >
       10
     </text>
@@ -357,7 +366,7 @@
       y="391"
       fill="#111111"
       font-size="54"
-      font-weight="850"
+      font-weight="800"
     >
       C
     </text>
@@ -380,7 +389,7 @@
       text-anchor="middle"
       fill="#111111"
       font-size="43"
-      font-weight="850"
+      font-weight="800"
     >
       8
     </text>
@@ -390,7 +399,7 @@
       y="501"
       fill="#111111"
       font-size="54"
-      font-weight="850"
+      font-weight="800"
     >
       PYTHON
     </text>
@@ -413,7 +422,7 @@
       text-anchor="middle"
       fill="#111111"
       font-size="43"
-      font-weight="850"
+      font-weight="800"
     >
       5
     </text>
@@ -423,14 +432,21 @@
       y="620"
       fill="#111111"
       font-size="54"
-      font-weight="850"
+      font-weight="800"
     >
       GO
     </text>
   </g>
 
   <!-- blinking current-station signal -->
-  <g class="signal" filter="url(#signalGlow)">
+  <g filter="url(#signalGlow)">
+    <animate
+      attributeName="opacity"
+      values="1;.32;1"
+      dur="1.25s"
+      repeatCount="indefinite"
+    />
+
     <circle
       cx="1040"
       cy="760"
@@ -459,7 +475,7 @@
     y="773"
     fill="#111111"
     font-size="54"
-    font-weight="850"
+    font-weight="800"
   >
     SYSTEMS
   </text>
@@ -472,7 +488,7 @@
       y="483"
       fill="#111111"
       font-size="29"
-      font-weight="850"
+      font-weight="800"
     >
       CONNECTIONS
     </text>
