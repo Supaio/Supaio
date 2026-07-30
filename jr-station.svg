@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Supaio Station</title>
+  <desc id="desc">A JR-inspired station sign with an animated commuter train passing the platform.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#edf7f2"/>
+      <stop offset="1" stop-color="#dcebe4"/>
+    </linearGradient>
+    <linearGradient id="trainBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.72" stop-color="#e8ecef"/>
+      <stop offset="1" stop-color="#cbd2d7"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#101820" flood-opacity=".22"/>
+    </filter>
+    <clipPath id="scene">
+      <rect width="1200" height="360" rx="24"/>
+    </clipPath>
+    <style>
+      .latin { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .jp { font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif; }
+      .train { animation: arrive 10s cubic-bezier(.55,.05,.25,1) infinite; }
+      .signal { animation: blink 2s ease-in-out infinite; }
+      .board-text { animation: board 8s steps(1,end) infinite; }
+      @keyframes arrive {
+        0% { transform: translateX(1270px); }
+        28%, 66% { transform: translateX(310px); }
+        100% { transform: translateX(-1050px); }
+      }
+      @keyframes blink {
+        0%, 45% { opacity: 1; }
+        50%, 100% { opacity: .25; }
+      }
+      @keyframes board {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: .38; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .train, .signal, .board-text { animation: none; }
+        .train { transform: translateX(310px); }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#scene)">
+    <rect width="1200" height="360" fill="url(#sky)"/>
+    <rect y="0" width="1200" height="15" fill="#00a040"/>
+    <rect y="15" width="1200" height="5" fill="#f5c400"/>
+
+    <!-- roof and platform architecture -->
+    <path d="M0 68H1200V84H0z" fill="#202a35"/>
+    <path d="M70 84h18v188H70zm346 0h18v188h-18zm690 0h18v188h-18z" fill="#66717c"/>
+    <path d="M0 264H1200V360H0z" fill="#bec5c9"/>
+    <path d="M0 272H1200V283H0z" fill="#f5c400"/>
+    <path d="M0 307H1200V319H0z" fill="#67717a"/>
+    <path d="M0 324H1200V332H0z" fill="#303840"/>
+    <path d="M0 346H1200V353H0z" fill="#303840"/>
+
+    <!-- destination board -->
+    <g filter="url(#shadow)">
+      <rect x="815" y="42" width="300" height="81" rx="5" fill="#161d24"/>
+      <rect x="827" y="53" width="276" height="58" rx="2" fill="#202a35" stroke="#495560"/>
+      <circle class="signal" cx="847" cy="72" r="6" fill="#f5c400"/>
+      <text class="latin" x="864" y="77" fill="#f5c400" font-size="15" font-weight="700">LOCAL</text>
+      <text class="latin board-text" x="846" y="101" fill="#f6f8fa" font-size="17" font-weight="700">NOW  →  NEXT COMMIT</text>
+    </g>
+
+    <!-- station sign -->
+    <g filter="url(#shadow)">
+      <rect x="123" y="43" width="620" height="174" rx="9" fill="#ffffff" stroke="#202a35" stroke-width="5"/>
+      <rect x="123" y="43" width="620" height="23" rx="6" fill="#00a040"/>
+      <rect x="123" y="194" width="620" height="23" rx="6" fill="#00a040"/>
+      <circle cx="181" cy="130" r="34" fill="#fff" stroke="#00a040" stroke-width="7"/>
+      <text class="latin" x="181" y="124" text-anchor="middle" fill="#202a35" font-size="13" font-weight="700">CS</text>
+      <text class="latin" x="181" y="145" text-anchor="middle" fill="#00a040" font-size="17" font-weight="800">01</text>
+      <text class="latin" x="231" y="126" fill="#18212a" font-size="48" font-weight="800" letter-spacing="4">SUPAIO</text>
+      <text class="jp" x="234" y="163" fill="#45515c" font-size="21" font-weight="600">すぱいお駅 · SUPAIO STATION</text>
+      <path d="M570 104h117" stroke="#00a040" stroke-width="6" stroke-linecap="round"/>
+      <path d="M570 104l18-12v24z" fill="#00a040"/>
+      <text class="latin" x="628" y="92" text-anchor="middle" fill="#53606b" font-size="11" font-weight="700">NEXT</text>
+      <text class="latin" x="628" y="140" text-anchor="middle" fill="#18212a" font-size="16" font-weight="800">BUILD</text>
+      <text class="latin" x="628" y="160" text-anchor="middle" fill="#53606b" font-size="12">SYSTEMS LINE</text>
+    </g>
+
+    <!-- animated commuter train -->
+    <g class="train" filter="url(#shadow)">
+      <rect x="-750" y="170" width="830" height="121" rx="23" fill="url(#trainBody)" stroke="#7d8991" stroke-width="3"/>
+      <path d="M-750 202H80V222H-750z" fill="#00a040"/>
+      <path d="M-750 218H80V224H-750z" fill="#202a35"/>
+      <path d="M-735 179h100v35h-100zM-609 179h100v35h-100zM-483 179h100v35h-100zM-357 179h100v35h-100zM-231 179h100v35h-100z" fill="#263847"/>
+      <path d="M-102 179h111c27 0 50 20 56 45h-167z" fill="#263847"/>
+      <path d="M-744 232h794v46h-794z" fill="#f6f8fa" opacity=".68"/>
+      <path d="M-600 225v65m252-65v65m126-65v65" stroke="#8b969e" stroke-width="3"/>
+      <circle cx="-602" cy="289" r="13" fill="#26313a"/>
+      <circle cx="-220" cy="289" r="13" fill="#26313a"/>
+      <circle cx="52" cy="244" r="7" fill="#f5c400"/>
+      <text class="latin" x="-91" y="263" fill="#202a35" font-size="15" font-weight="800">LOCAL</text>
+    </g>
+
+    <!-- foreground platform markings -->
+    <path d="M0 284H1200" stroke="#f8fafb" stroke-width="4" stroke-dasharray="42 25" opacity=".9"/>
+    <g fill="#00a040">
+      <path d="M118 294h92v8h-92z"/>
+      <path d="M502 294h92v8h-92z"/>
+      <path d="M892 294h92v8h-92z"/>
+    </g>
+
+    <text class="latin" x="28" y="340" fill="#ffffff" font-size="13" font-weight="700" letter-spacing="2">PLATFORM 01 · KEEP CURIOSITY BEHIND THE YELLOW LINE</text>
+  </g>
+</svg>
