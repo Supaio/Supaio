@@ -1,20 +1,22 @@
 <!--
   Supaio · GitHub Profile README
-  Minimal cyber-luxury theme — deep navy × electric cyan
+  JR station-inspired theme — platform green × signal yellow × rail navy
+  Place this file in: Supaio/Supaio/README.md
+  Keep the companion SVG at: Supaio/Supaio/assets/jr-station.svg
 -->
 
 <div align="center">
 
   <img
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,38:0f172a,72:0e7490,100:22d3ee&height=250&section=header&text=SUPAIO&fontSize=74&fontColor=f8fafc&fontAlignY=36&desc=BUILDING%20QUIETLY%20%C2%B7%20LEARNING%20RELENTLESSLY&descAlignY=57&descSize=16&animation=fadeIn"
-    alt="Supaio — Computer Science Student"
+    src="./assets/jr-station.svg"
+    alt="Supaio Station — animated train arriving at the platform"
   />
 
   <a href="https://github.com/Supaio">
     <img
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=900&color=67E8F9&center=true&vCenter=true&repeat=true&width=640&height=45&lines=Computer+Science+Student;C+%C2%B7+Python+%C2%B7+Go;Turning+curiosity+into+working+systems;This+profile+is+made+by+ChatGPT."
-      alt="Typing introduction"
+      src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&weight=600&size=18&duration=2800&pause=900&color=00A040&center=true&vCenter=true&repeat=true&width=760&height=44&lines=%E3%81%BE%E3%82%82%E3%81%AA%E3%81%8F%E3%80%81Supaio+Station+%E3%81%A7%E3%81%99%E3%80%82;Computer+Science+Student;C+%C2%B7+Python+%C2%B7+Go;Turning+curiosity+into+working+systems;This+profile+is+made+by+ChatGPT."
+      alt="Station departure board introduction"
     />
   </a>
 
@@ -22,13 +24,13 @@
 
   <a href="https://github.com/Supaio?tab=followers">
     <img
-      src="https://img.shields.io/github/followers/Supaio?label=FOLLOWERS&style=for-the-badge&logo=github&logoColor=e2e8f0&labelColor=0f172a&color=0891b2"
+      src="https://img.shields.io/github/followers/Supaio?label=PASSENGERS&style=for-the-badge&logo=github&logoColor=ffffff&labelColor=202a35&color=00a040"
       alt="GitHub followers"
     />
   </a>
   <a href="https://github.com/Supaio">
     <img
-      src="https://komarev.com/ghpvc/?username=Supaio&label=PROFILE+VIEWS&color=0891b2&style=for-the-badge"
+      src="https://komarev.com/ghpvc/?username=Supaio&label=GATE+ENTRIES&color=00a040&style=for-the-badge"
       alt="Profile views"
     />
   </a>
@@ -39,62 +41,122 @@
 
 <table>
   <tr>
-    <td width="58%" valign="top">
-      <h2>About</h2>
+    <td width="62%" valign="top">
+      <h3>🚉 Station Information · 駅情報</h3>
       <p>
-        I’m <strong>Supaio</strong>, a computer science student exploring how
-        elegant ideas become reliable software.
+        Welcome to <strong>Supaio Station</strong> — a small interchange where
+        computer science fundamentals meet practical systems.
       </p>
       <p>
-        I enjoy moving between low-level fundamentals and practical systems —
-        learning the machinery, building the thing, then making it better.
+        I move between low-level machinery and useful software: learning how
+        things work, building them, then returning to make them clearer and
+        more reliable.
       </p>
-      <br />
       <blockquote>
-        <em>Stay curious. Build deliberately. Let the work speak.</em>
+        Stay curious. Build deliberately. Let the work speak.
       </blockquote>
     </td>
-    <td width="42%" valign="top">
-      <h2>Current Focus</h2>
-      <p>◈ Strengthening CS fundamentals</p>
-      <p>◈ Building with C, Python & Go</p>
-      <p>◈ Exploring systems & tooling</p>
-      <p>◈ Learning in public</p>
+    <td width="38%" valign="top">
+      <h3>🟢 Service Status · 運行情報</h3>
+      <p>🟢 CS fundamentals — <strong>On time</strong></p>
+      <p>🟢 C / Python / Go — <strong>In service</strong></p>
+      <p>🟡 Systems & tooling — <strong>Exploring</strong></p>
+      <p>🔵 Learning in public — <strong>Daily</strong></p>
     </td>
   </tr>
 </table>
 
-<h2 align="center">Technology</h2>
+<div align="center">
 
-<p align="center">
+### Lines & Connections · 路線案内
+
+<table>
+  <tr>
+    <td align="center"><strong>JY</strong><br /><sub>Core Line</sub></td>
+    <td align="center">●</td>
+    <td align="center"><strong>C</strong><br /><sub>Low Level</sub></td>
+    <td align="center">●</td>
+    <td align="center"><strong>PY</strong><br /><sub>Python</sub></td>
+    <td align="center">●</td>
+    <td align="center"><strong>GO</strong><br /><sub>Go</sub></td>
+    <td align="center">●</td>
+    <td align="center"><strong>SYS</strong><br /><sub>Systems</sub></td>
+  </tr>
+  <tr>
+    <td colspan="9">
+      <img
+        src="https://capsule-render.vercel.app/api?type=rect&color=00A040&height=6&section=header"
+        width="100%"
+        alt=""
+      />
+    </td>
+  </tr>
+</table>
+
+<p>
   <img
-    src="https://skillicons.dev/icons?i=c,python,go,windows,linux&theme=dark"
+    src="https://skillicons.dev/icons?i=c,python,go,windows,linux&theme=light"
     alt="C, Python, Go, Windows and Linux"
   />
 </p>
 
-<p align="center">
-  <sub>LANGUAGES&nbsp;&nbsp;·&nbsp;&nbsp;SYSTEMS&nbsp;&nbsp;·&nbsp;&nbsp;TOOLS</sub>
-</p>
+<sub>LANGUAGES&nbsp;&nbsp;·&nbsp;&nbsp;SYSTEMS&nbsp;&nbsp;·&nbsp;&nbsp;TOOLS</sub>
+
+</div>
 
 <br />
 
-<h2 align="center">GitHub Intelligence</h2>
+<div align="center">
+
+### Departure Board · 発車標
+
+<table>
+  <tr>
+    <th>TIME</th>
+    <th>LOCAL / RAPID</th>
+    <th>DESTINATION</th>
+    <th>TRACK</th>
+  </tr>
+  <tr>
+    <td><code>NOW</code></td>
+    <td>LOCAL</td>
+    <td>Strengthen CS fundamentals</td>
+    <td><strong>1</strong></td>
+  </tr>
+  <tr>
+    <td><code>NEXT</code></td>
+    <td>RAPID</td>
+    <td>Build reliable systems</td>
+    <td><strong>2</strong></td>
+  </tr>
+  <tr>
+    <td><code>SOON</code></td>
+    <td>EXPRESS</td>
+    <td>Ship something useful</td>
+    <td><strong>3</strong></td>
+  </tr>
+</table>
+
+</div>
+
+<br />
 
 <div align="center">
+
+### Operation Record · 運行記録
 
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats.vercel.app/api?username=Supaio&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=00000000&title_color=67e8f9&text_color=cbd5e1&icon_color=22d3ee"
+      srcset="https://github-readme-stats.vercel.app/api?username=Supaio&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=00000000&title_color=00d26a&text_color=d8dee9&icon_color=f5c400"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-stats.vercel.app/api?username=Supaio&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=00000000&title_color=0e7490&text_color=334155&icon_color=0891b2"
+      srcset="https://github-readme-stats.vercel.app/api?username=Supaio&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=00000000&title_color=008a38&text_color=263238&icon_color=d4a900"
     />
     <img
       height="175"
-      src="https://github-readme-stats.vercel.app/api?username=Supaio&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=00000000&title_color=67e8f9&text_color=cbd5e1&icon_color=22d3ee"
+      src="https://github-readme-stats.vercel.app/api?username=Supaio&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=00000000&title_color=008a38&text_color=263238&icon_color=d4a900"
       alt="Supaio's GitHub statistics"
     />
   </picture>
@@ -102,15 +164,15 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Supaio&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=67e8f9&text_color=cbd5e1"
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Supaio&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=00d26a&text_color=d8dee9"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Supaio&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=0e7490&text_color=334155"
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Supaio&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=008a38&text_color=263238"
     />
     <img
       height="175"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Supaio&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=67e8f9&text_color=cbd5e1"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Supaio&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=008a38&text_color=263238"
       alt="Supaio's most used languages"
     />
   </picture>
@@ -124,15 +186,15 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=cbd5e1&line=22d3ee&point=67e8f9&area=true&area_color=0e7490&hide_border=true&custom_title=Contribution%20Signal"
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=d8dee9&line=00a040&point=f5c400&area=true&area_color=007a34&hide_border=true&custom_title=Network%20Activity%20%E2%80%94%20%E9%81%8B%E8%A1%8C%E3%83%80%E3%82%A4%E3%83%A4"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=334155&line=0891b2&point=0e7490&area=true&area_color=67e8f9&hide_border=true&custom_title=Contribution%20Signal"
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=263238&line=00a040&point=d4a900&area=true&area_color=95d5b2&hide_border=true&custom_title=Network%20Activity%20%E2%80%94%20%E9%81%8B%E8%A1%8C%E3%83%80%E3%82%A4%E3%83%A4"
     />
     <img
       width="96%"
-      src="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=cbd5e1&line=22d3ee&point=67e8f9&area=true&area_color=0e7490&hide_border=true&custom_title=Contribution%20Signal"
+      src="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=263238&line=00a040&point=d4a900&area=true&area_color=95d5b2&hide_border=true&custom_title=Network%20Activity%20%E2%80%94%20%E9%81%8B%E8%A1%8C%E3%83%80%E3%82%A4%E3%83%A4"
       alt="Supaio's contribution activity graph"
     />
   </picture>
@@ -144,16 +206,20 @@
 <div align="center">
 
   <sub>
-    <code>THINK</code>&nbsp;&nbsp;→&nbsp;&nbsp;
+    <code>ARRIVE</code>&nbsp;&nbsp;→&nbsp;&nbsp;
+    <code>LEARN</code>&nbsp;&nbsp;→&nbsp;&nbsp;
     <code>BUILD</code>&nbsp;&nbsp;→&nbsp;&nbsp;
-    <code>REFINE</code>&nbsp;&nbsp;→&nbsp;&nbsp;
-    <code>REPEAT</code>
+    <code>DEPART</code>
   </sub>
 
+  <br /><br />
+
   <img
+    src="https://capsule-render.vercel.app/api?type=rect&color=0:00A040,45:00A040,45:202A35,55:202A35,55:F5C400,100:F5C400&height=10&section=footer"
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,28:0e7490,62:0f172a,100:020617&height=130&section=footer"
     alt=""
   />
+
+  <sub>Thank you for traveling with Supaio · ご利用ありがとうございます</sub>
 
 </div>
