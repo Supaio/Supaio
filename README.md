@@ -28,7 +28,7 @@
   </a>
   <a href="https://github.com/Supaio">
     <img
-      src="https://komarev.com/ghpvc/?username=Supaio&label=GATE+ENTRIES&color=00a040&style=for-the-badge"
+      src="https://komarev.com/ghpvc/?username=Supaio&label=GATE+ENTRIES(Profile views)&color=00a040&style=for-the-badge"
       alt="Profile views"
     />
   </a>
