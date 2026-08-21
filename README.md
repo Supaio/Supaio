@@ -1,6 +1,6 @@
 <!--
-  Supaio · GitHub Profile README
-  JR station-inspired theme — platform green × signal yellow × rail navy
+  Supaio · GitHub 个人主页
+  JR 车站主题——站台绿 × 信号黄 × 铁路深蓝
 -->
 
 <div align="center">
@@ -8,13 +8,13 @@
   <img
     width="100%"
     src="https://raw.githubusercontent.com/Supaio/Supaio/main/jr-station.svg?v=4"
-    alt="Supaio Station — animated train arriving at the platform"
+    alt="Supaio 站——列车正在驶入站台"
   />
 
   <a href="https://github.com/Supaio">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&weight=600&size=18&duration=2800&pause=900&color=00A040&center=true&vCenter=true&repeat=true&width=760&height=44&lines=%E3%81%BE%E3%82%82%E3%81%AA%E3%81%8F%E3%80%81Supaio+Station+%E3%81%A7%E3%81%99%E3%80%82;Computer+Science+Student;C+%C2%B7+Python+%C2%B7+Go;Turning+curiosity+into+working+systems;This+profile+is+made+by+ChatGPT."
-      alt="Station departure board introduction"
+      src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=600&size=18&duration=2800&pause=900&color=00A040&center=true&vCenter=true&repeat=true&width=760&height=44&lines=%E5%8D%B3%E5%B0%86%E5%88%B0%E8%BE%BE%EF%BC%8CSupaio+Station%E3%80%82;%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E5%AD%A6%E7%94%9F;C+%C2%B7+Python+%C2%B7+Go;%E6%8A%8A%E5%A5%BD%E5%A5%87%E5%BF%83%E5%8F%98%E6%88%90%E5%8F%AF%E4%BB%A5%E8%BF%90%E8%A1%8C%E7%9A%84%E7%B3%BB%E7%BB%9F;%E6%9C%AC%E4%B8%BB%E9%A1%B5%E7%94%B1+ChatGPT+%E5%88%B6%E4%BD%9C"
+      alt="车站发车牌动态简介"
     />
   </a>
 
@@ -22,14 +22,15 @@
 
   <a href="https://github.com/Supaio?tab=followers">
     <img
-      src="https://img.shields.io/github/followers/Supaio?label=PASSENGERS&style=for-the-badge&logo=github&logoColor=ffffff&labelColor=202a35&color=00a040"
-      alt="GitHub followers"
+      src="https://img.shields.io/github/followers/Supaio?label=%E4%B9%98%E5%AE%A2&style=for-the-badge&logo=github&logoColor=ffffff&labelColor=202a35&color=00a040"
+      alt="GitHub 关注者"
     />
   </a>
+  &nbsp;&nbsp;
   <a href="https://github.com/Supaio">
     <img
-      src="https://komarev.com/ghpvc/?username=Supaio&label=GATE+ENTRIES+Profile+views&color=00a040&style=for-the-badge"
-      alt="Profile views"
+      src="https://komarev.com/ghpvc/?username=Supaio&label=%E8%AE%BF%E9%97%AE&color=00a040&style=for-the-badge"
+      alt="主页访问量"
     />
   </a>
 
@@ -40,48 +41,45 @@
 <table>
   <tr>
     <td width="62%" valign="top">
-      <h3>🚉 Station Information · 駅情報</h3>
+      <h3>🚉 车站信息</h3>
       <p>
-        Welcome to <strong>Supaio Station</strong> — a small interchange where
-        computer science fundamentals meet practical systems.
+        欢迎来到 <strong>Supaio 站</strong>——一个连接计算机科学基础与实用系统的小型换乘站。
       </p>
       <p>
-        I move between low-level machinery and useful software: learning how
-        things work, building them, then returning to make them clearer and
-        more reliable.
+        我往返于底层原理与实用软件之间：理解事物如何运作，亲手构建，再回头让它们变得更清晰、更可靠。
       </p>
       <blockquote>
-        Stay curious. Build deliberately. Let the work speak.
+        保持好奇，认真构建，让作品说话。
       </blockquote>
     </td>
     <td width="38%" valign="top">
-      <h3>🟢 Service Status · 運行情報</h3>
-      <p>🟢 CS fundamentals — <strong>On time</strong></p>
-      <p>🟢 C / Python / Go — <strong>In service</strong></p>
-      <p>🟡 Systems & tooling — <strong>Exploring</strong></p>
-      <p>🔵 Learning in public — <strong>Daily</strong></p>
+      <h3>🟢 运行状态</h3>
+      <p>🟢 计算机科学基础——<strong>准点</strong></p>
+      <p>🟢 C / Python / Go——<strong>运营中</strong></p>
+      <p>🟡 系统与工具——<strong>探索中</strong></p>
+      <p>🔵 公开学习——<strong>每日运行</strong></p>
     </td>
   </tr>
 </table>
 
 <div align="center">
 
-### Lines & Connections · 路線案内
+### 路线与连接
 
 <img
   width="100%"
   src="https://raw.githubusercontent.com/Supaio/Supaio/main/jr-route-map.svg?v=4"
-  alt="Supaio development line: Foundations, C, Python, Go and Systems"
+  alt="Supaio 开发路线：基础、C、Python、Go 与系统"
 />
 
 <p>
   <img
     src="https://skillicons.dev/icons?i=c,python,go,windows,linux&theme=light"
-    alt="C, Python, Go, Windows and Linux"
+    alt="C、Python、Go、Windows 与 Linux"
   />
 </p>
 
-<sub>LANGUAGES&nbsp;&nbsp;·&nbsp;&nbsp;SYSTEMS&nbsp;&nbsp;·&nbsp;&nbsp;TOOLS</sub>
+<sub>编程语言&nbsp;&nbsp;·&nbsp;&nbsp;系统&nbsp;&nbsp;·&nbsp;&nbsp;工具</sub>
 
 </div>
 
@@ -89,31 +87,31 @@
 
 <div align="center">
 
-### Departure Board · 発車標
+### 发车时刻表
 
 <table>
   <tr>
-    <th>TIME</th>
-    <th>LOCAL / RAPID</th>
-    <th>DESTINATION</th>
-    <th>TRACK</th>
+    <th>时间</th>
+    <th>车次</th>
+    <th>目的地</th>
+    <th>站台</th>
   </tr>
   <tr>
-    <td><code>NOW</code></td>
-    <td>LOCAL</td>
-    <td>Strengthen CS fundamentals</td>
+    <td><code>现在</code></td>
+    <td>普通</td>
+    <td>强化计算机科学基础</td>
     <td><strong>1</strong></td>
   </tr>
   <tr>
-    <td><code>NEXT</code></td>
-    <td>RAPID</td>
-    <td>Build reliable systems</td>
+    <td><code>下一班</code></td>
+    <td>快速</td>
+    <td>构建可靠系统</td>
     <td><strong>2</strong></td>
   </tr>
   <tr>
-    <td><code>SOON</code></td>
-    <td>EXPRESS</td>
-    <td>Ship something useful</td>
+    <td><code>即将到站</code></td>
+    <td>特快</td>
+    <td>发布实用作品</td>
     <td><strong>3</strong></td>
   </tr>
 </table>
@@ -122,67 +120,36 @@
 
 <br />
 
-<!--
-GitHub Stats and Most Used Languages are temporarily hidden because the cards
-are currently empty. Remove this opening comment and the closing comment below
-to restore them later.
-
 <div align="center">
 
-### Operation Record · 運行記録
+### 参与的项目
 
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats.vercel.app/api?username=Supaio&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=00000000&title_color=00d26a&text_color=d8dee9&icon_color=f5c400"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-stats.vercel.app/api?username=Supaio&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=00000000&title_color=008a38&text_color=263238&icon_color=d4a900"
-    />
-    <img
-      height="175"
-      src="https://github-readme-stats.vercel.app/api?username=Supaio&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=00000000&title_color=008a38&text_color=263238&icon_color=d4a900"
-      alt="Supaio's GitHub statistics"
-    />
-  </picture>
-
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Supaio&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=00d26a&text_color=d8dee9"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Supaio&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=008a38&text_color=263238"
-    />
-    <img
-      height="175"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Supaio&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=008a38&text_color=263238"
-      alt="Supaio's most used languages"
-    />
-  </picture>
+<p>
+  参与的项目：
+  <a href="https://github.com/qiransy/managing-zotero-skill">
+    https://github.com/qiransy/managing-zotero-skill
+  </a>
+</p>
 
 </div>
 
 <br />
--->
 
 <div align="center">
 
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=d8dee9&line=00a040&point=f5c400&area=true&area_color=007a34&hide_border=true&custom_title=Network%20Activity%20%E2%80%94%20%E9%81%8B%E8%A1%8C%E3%83%80%E3%82%A4%E3%83%A4"
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=d8dee9&line=00a040&point=f5c400&area=true&area_color=007a34&hide_border=true&custom_title=%E7%BD%91%E7%BB%9C%E6%B4%BB%E5%8A%A8+%E2%80%94+%E8%BF%90%E8%A1%8C%E5%9B%BE"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=263238&line=00a040&point=d4a900&area=true&area_color=95d5b2&hide_border=true&custom_title=Network%20Activity%20%E2%80%94%20%E9%81%8B%E8%A1%8C%E3%83%80%E3%82%A4%E3%83%A4"
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=263238&line=00a040&point=d4a900&area=true&area_color=95d5b2&hide_border=true&custom_title=%E7%BD%91%E7%BB%9C%E6%B4%BB%E5%8A%A8+%E2%80%94+%E8%BF%90%E8%A1%8C%E5%9B%BE"
     />
     <img
       width="96%"
-      src="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=263238&line=00a040&point=d4a900&area=true&area_color=95d5b2&hide_border=true&custom_title=Network%20Activity%20%E2%80%94%20%E9%81%8B%E8%A1%8C%E3%83%80%E3%82%A4%E3%83%A4"
-      alt="Supaio's contribution activity graph"
+      src="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=263238&line=00a040&point=d4a900&area=true&area_color=95d5b2&hide_border=true&custom_title=%E7%BD%91%E7%BB%9C%E6%B4%BB%E5%8A%A8+%E2%80%94+%E8%BF%90%E8%A1%8C%E5%9B%BE"
+      alt="Supaio 的贡献活动图"
     />
   </picture>
 
@@ -193,10 +160,10 @@ to restore them later.
 <div align="center">
 
   <sub>
-    <code>ARRIVE</code>&nbsp;&nbsp;→&nbsp;&nbsp;
-    <code>LEARN</code>&nbsp;&nbsp;→&nbsp;&nbsp;
-    <code>BUILD</code>&nbsp;&nbsp;→&nbsp;&nbsp;
-    <code>DEPART</code>
+    <code>到站</code>&nbsp;&nbsp;→&nbsp;&nbsp;
+    <code>学习</code>&nbsp;&nbsp;→&nbsp;&nbsp;
+    <code>构建</code>&nbsp;&nbsp;→&nbsp;&nbsp;
+    <code>出发</code>
   </sub>
 
   <br /><br />
@@ -207,4 +174,6 @@ to restore them later.
     alt=""
   />
 
-  <sub>Thank you for traveling with Supaio · ご利用
+  <sub>感谢乘坐 Supaio 号，祝您旅途愉快。</sub>
+
+</div>
