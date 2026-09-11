@@ -137,21 +137,42 @@
 
 <div align="center">
 
+### 运行档案
+
+<p>
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=d8dee9&line=00a040&point=f5c400&area=true&area_color=007a34&hide_border=true&custom_title=%E7%BD%91%E7%BB%9C%E6%B4%BB%E5%8A%A8+%E2%80%94+%E8%BF%90%E8%A1%8C%E5%9B%BE"
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Supaio&theme=github_dark&title_color=00a040&text_color=d8dee9&bg_color=00000000&border_color=00a040&icon_color=f5c400&chart_color=00a040"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=263238&line=00a040&point=d4a900&area=true&area_color=95d5b2&hide_border=true&custom_title=%E7%BD%91%E7%BB%9C%E6%B4%BB%E5%8A%A8+%E2%80%94+%E8%BF%90%E8%A1%8C%E5%9B%BE"
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Supaio&theme=github&title_color=00a040&text_color=263238&bg_color=00000000&border_color=00a040&icon_color=f5c400&chart_color=00a040"
     />
     <img
-      width="96%"
-      src="https://github-readme-activity-graph.vercel.app/graph?username=Supaio&bg_color=00000000&color=263238&line=00a040&point=d4a900&area=true&area_color=95d5b2&hide_border=true&custom_title=%E7%BD%91%E7%BB%9C%E6%B4%BB%E5%8A%A8+%E2%80%94+%E8%BF%90%E8%A1%8C%E5%9B%BE"
-      alt="Supaio 的贡献活动图"
+      width="340"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Supaio&theme=github&title_color=00a040&text_color=263238&bg_color=00000000&border_color=00a040&icon_color=f5c400&chart_color=00a040"
+      alt="Supaio 的 GitHub 运行统计"
     />
   </picture>
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Supaio&theme=github_dark&title_color=00a040&text_color=d8dee9&bg_color=00000000&border_color=00a040&icon_color=f5c400&chart_color=00a040"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Supaio&theme=github&title_color=00a040&text_color=263238&bg_color=00000000&border_color=00a040&icon_color=f5c400&chart_color=00a040"
+    />
+    <img
+      width="340"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Supaio&theme=github&title_color=00a040&text_color=263238&bg_color=00000000&border_color=00a040&icon_color=f5c400&chart_color=00a040"
+      alt="Supaio 使用最多的语言（按提交统计）"
+    />
+  </picture>
+</p>
+
+<sub>运行统计&nbsp;&nbsp;·&nbsp;&nbsp;常用语言（按提交统计）</sub>
 
 </div>
 
