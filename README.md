@@ -137,49 +137,6 @@
 
 <div align="center">
 
-### 运行档案
-
-<p>
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Supaio&theme=github_dark&title_color=00a040&text_color=d8dee9&bg_color=00000000&border_color=00a040&icon_color=f5c400&chart_color=00a040"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Supaio&theme=github&title_color=00a040&text_color=263238&bg_color=00000000&border_color=00a040&icon_color=f5c400&chart_color=00a040"
-    />
-    <img
-      width="340"
-      src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Supaio&theme=github&title_color=00a040&text_color=263238&bg_color=00000000&border_color=00a040&icon_color=f5c400&chart_color=00a040"
-      alt="Supaio 的 GitHub 运行统计"
-    />
-  </picture>
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Supaio&theme=github_dark&title_color=00a040&text_color=d8dee9&bg_color=00000000&border_color=00a040&icon_color=f5c400&chart_color=00a040"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Supaio&theme=github&title_color=00a040&text_color=263238&bg_color=00000000&border_color=00a040&icon_color=f5c400&chart_color=00a040"
-    />
-    <img
-      width="340"
-      src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Supaio&theme=github&title_color=00a040&text_color=263238&bg_color=00000000&border_color=00a040&icon_color=f5c400&chart_color=00a040"
-      alt="Supaio 使用最多的语言（按提交统计）"
-    />
-  </picture>
-</p>
-
-<sub>运行统计&nbsp;&nbsp;·&nbsp;&nbsp;常用语言（按提交统计）</sub>
-
-</div>
-
-<br />
-
-<div align="center">
-
   <sub>
     <code>到站</code>&nbsp;&nbsp;→&nbsp;&nbsp;
     <code>学习</code>&nbsp;&nbsp;→&nbsp;&nbsp;
