@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1536" height="470" viewBox="0 0 1536 470" xml:lang="zh-CN" role="img" aria-labelledby="title desc">
-  <title id="title">Supaio 站</title>
-  <desc id="desc">Supaio 的个人主页站牌，展示计算机科学、好奇心与动手实践。</desc>
+  <title id="title">Supaio 开发线 · Codex 站</title>
+  <desc id="desc">Supaio 开发线站牌。按向左的箭头，依次经过右侧的 Claude（学 04）、本站 Codex（学 05）和左侧的 AGI（学 06）。行驶方向为 AGI、ASI。</desc>
 
   <defs>
     <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
@@ -9,8 +9,8 @@
       <stop offset="1" stop-color="#f0f1ef"/>
     </linearGradient>
     <linearGradient id="currentStation" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#13c9e8"/>
-      <stop offset="1" stop-color="#00a8ce"/>
+      <stop offset="0" stop-color="#95c950"/>
+      <stop offset="1" stop-color="#67ad29"/>
     </linearGradient>
     <filter id="boardShadow" x="-10%" y="-20%" width="120%" height="150%">
       <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#000000" flood-opacity=".48"/>
@@ -37,52 +37,42 @@
   <!-- current station number plate -->
   <g>
     <rect x="365" y="47" width="148" height="181" rx="24" fill="#111111"/>
-    <text class="zh" x="439" y="89" text-anchor="middle" fill="#ffffff" font-size="34" font-weight="800" letter-spacing="3">站牌</text>
-    <rect x="379" y="96" width="120" height="116" rx="8" fill="#09bfe2"/>
+    <text class="zh" x="439" y="80" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="700" letter-spacing="1">本站</text>
+    <rect x="379" y="96" width="120" height="116" rx="8" fill="#67ad29"/>
     <rect x="390" y="107" width="98" height="94" rx="3" fill="#ffffff"/>
-    <text class="zh" x="439" y="150" text-anchor="middle" fill="#181818" font-size="27" font-weight="800">站号</text>
-    <text class="sans" x="439" y="191" text-anchor="middle" fill="#181818" font-size="43" font-weight="800">01</text>
+    <text class="zh" x="439" y="146" text-anchor="middle" fill="#181818" font-size="30" font-weight="800">学</text>
+    <text class="sans" x="439" y="186" text-anchor="middle" fill="#181818" font-size="42" font-weight="800">05</text>
   </g>
 
-  <!-- main station name -->
+  <!-- line name -->
   <g fill="#111111">
     <text class="sans" x="780" y="156" text-anchor="middle" font-size="105" font-weight="900" letter-spacing="7">SUPAIO</text>
-    <text class="zh" x="780" y="218" text-anchor="middle" font-size="39" font-weight="800" letter-spacing="10">个人主页</text>
+    <text class="zh" x="780" y="218" text-anchor="middle" font-size="39" font-weight="800" letter-spacing="10">开发线</text>
   </g>
 
-  <!-- 学科 -->
+  <!-- 行驶方向 -->
   <g fill="#222222">
-    <text class="zh" x="1063" y="102" font-size="31" font-weight="650">计算机</text>
-    <text class="zh" x="1063" y="149" font-size="31" font-weight="650">科学</text>
-  </g>
-
-  <!-- student mark, echoing the reference sign's boxed symbols -->
-  <g class="zh" font-size="42" font-weight="800" text-anchor="middle">
-    <rect x="1288" y="57" width="62" height="62" rx="5" fill="#ffffff" stroke="#222222" stroke-width="5"/>
-    <text x="1319" y="103" fill="#222222">学</text>
-    <rect x="1369" y="57" width="62" height="62" rx="5" fill="#222222"/>
-    <rect x="1375" y="63" width="50" height="50" rx="2" fill="#ffffff"/>
-    <text x="1400" y="103" fill="#222222">生</text>
+    <text class="zh" x="1063" y="102" font-size="31" font-weight="650">AGI、ASI 方向</text>
   </g>
 
   <!-- green railway direction band -->
-  <path d="M46 309L104 268H720V350H104Z" fill="#087f23"/>
+  <path d="M46 309L104 268H720V350H104Z" fill="#4f8520"/>
   <rect x="720" y="268" width="96" height="82" fill="url(#currentStation)"/>
-  <rect x="816" y="268" width="692" height="82" fill="#087f23"/>
+  <rect x="816" y="268" width="692" height="82" fill="#4f8520"/>
 
   <!-- adjacent station names -->
-  <text class="zh" x="224" y="330" text-anchor="middle" fill="#ffffff" font-size="57" font-weight="800" letter-spacing="5">好奇心</text>
-  <text class="zh" x="1320" y="330" text-anchor="middle" fill="#ffffff" font-size="57" font-weight="800" letter-spacing="5">构建</text>
+  <text class="sans" x="224" y="330" text-anchor="middle" fill="#ffffff" font-size="57" font-weight="800" letter-spacing="5">AGI</text>
+  <text class="sans" x="1320" y="330" text-anchor="middle" fill="#ffffff" font-size="57" font-weight="800" letter-spacing="5">Claude</text>
 
-  <!-- previous station details -->
+  <!-- next station details -->
   <g>
-    <rect x="91" y="365" width="65" height="65" rx="5" fill="#ffffff" stroke="#09bfe2" stroke-width="5"/>
-    <text class="zh" x="123.5" y="392" text-anchor="middle" fill="#222222" font-size="18" font-weight="800">站号</text>
-    <text class="sans" x="123.5" y="421" text-anchor="middle" fill="#222222" font-size="27" font-weight="800">00</text>
-    <text class="zh" x="176" y="416" fill="#222222" font-size="38" font-weight="500">持续学习</text>
+    <rect x="91" y="365" width="65" height="65" rx="5" fill="#ffffff" stroke="#67ad29" stroke-width="5"/>
+    <text class="zh" x="123.5" y="392" text-anchor="middle" fill="#222222" font-size="18" font-weight="800">学</text>
+    <text class="sans" x="123.5" y="421" text-anchor="middle" fill="#222222" font-size="27" font-weight="800">06</text>
+    <text class="zh" x="176" y="416" fill="#222222" font-size="38" font-weight="500">下一站</text>
   </g>
 
-  <!-- current and next station labels -->
-  <text class="sans" x="768" y="420" text-anchor="middle" fill="#111111" font-size="51" font-weight="850">Supaio</text>
-  <text class="zh" x="1320" y="416" text-anchor="middle" fill="#222222" font-size="38" font-weight="500">动手实践</text>
+  <!-- current and previous station labels -->
+  <text class="sans" x="768" y="420" text-anchor="middle" fill="#111111" font-size="51" font-weight="850">Codex</text>
+  <text class="zh" x="1320" y="416" text-anchor="middle" fill="#222222" font-size="38" font-weight="500">上一站 · 学 04</text>
 </svg>
