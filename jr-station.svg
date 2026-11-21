@@ -72,7 +72,14 @@
     <text class="zh" x="176" y="416" fill="#222222" font-size="38" font-weight="500">下一站</text>
   </g>
 
-  <!-- current and previous station labels -->
+  <!-- current station label -->
   <text class="sans" x="768" y="420" text-anchor="middle" fill="#111111" font-size="51" font-weight="850">Codex</text>
-  <text class="zh" x="1320" y="416" text-anchor="middle" fill="#222222" font-size="38" font-weight="500">上一站 · 学 04</text>
+
+  <!-- previous station details -->
+  <g>
+    <text class="zh" x="1335" y="416" text-anchor="end" fill="#222222" font-size="38" font-weight="500">上一站</text>
+    <rect x="1355" y="365" width="65" height="65" rx="5" fill="#ffffff" stroke="#67ad29" stroke-width="5"/>
+    <text class="zh" x="1387.5" y="392" text-anchor="middle" fill="#222222" font-size="18" font-weight="800">学</text>
+    <text class="sans" x="1387.5" y="421" text-anchor="middle" fill="#222222" font-size="27" font-weight="800">04</text>
+  </g>
 </svg>
