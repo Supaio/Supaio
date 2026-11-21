@@ -7,13 +7,13 @@
 
   <img
     width="100%"
-    src="https://raw.githubusercontent.com/Supaio/Supaio/main/jr-station.svg?v=4"
-    alt="Supaio 站——列车正在驶入站台"
+    src="./jr-station.svg"
+    alt="Supaio 站站牌"
   />
 
   <a href="https://github.com/Supaio">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=600&size=18&duration=2800&pause=900&color=00A040&center=true&vCenter=true&repeat=true&width=760&height=44&lines=%E5%8D%B3%E5%B0%86%E5%88%B0%E8%BE%BE%EF%BC%8CSupaio+Station%E3%80%82;%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E5%AD%A6%E7%94%9F;C+%C2%B7+Python+%C2%B7+Go;%E6%8A%8A%E5%A5%BD%E5%A5%87%E5%BF%83%E5%8F%98%E6%88%90%E5%8F%AF%E4%BB%A5%E8%BF%90%E8%A1%8C%E7%9A%84%E7%B3%BB%E7%BB%9F;%E6%9C%AC%E4%B8%BB%E9%A1%B5%E7%94%B1+ChatGPT+%E5%88%B6%E4%BD%9C"
+      src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=600&size=18&duration=2800&pause=900&color=00A040&center=true&vCenter=true&repeat=true&width=760&height=44&lines=%E5%8D%B3%E5%B0%86%E5%88%B0%E8%BE%BE%EF%BC%8CSupaio+%E7%AB%99%E3%80%82;%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E5%AD%A6%E7%94%9F;Python+%C2%B7+C+%C2%B7+Go;%E6%8A%8A%E5%A5%BD%E5%A5%87%E5%BF%83%E5%8F%98%E6%88%90%E5%8F%AF%E4%BB%A5%E8%BF%90%E8%A1%8C%E7%9A%84%E7%B3%BB%E7%BB%9F;%E6%9C%AC%E4%B8%BB%E9%A1%B5%E7%94%B1+ChatGPT+%E5%88%B6%E4%BD%9C"
       alt="车站发车牌动态简介"
     />
   </a>
@@ -55,7 +55,7 @@
     <td width="38%" valign="top">
       <h3>🟢 运行状态</h3>
       <p>🟢 计算机科学基础——<strong>准点</strong></p>
-      <p>🟢 C / Python / Go——<strong>运营中</strong></p>
+      <p>🟢 Python / C / Go——<strong>运营中</strong></p>
       <p>🟡 系统与工具——<strong>探索中</strong></p>
       <p>🔵 公开学习——<strong>每日运行</strong></p>
     </td>
@@ -66,16 +66,18 @@
 
 ### 路线与连接
 
-<img
-  width="100%"
-  src="https://raw.githubusercontent.com/Supaio/Supaio/main/jr-route-map.svg?v=4"
-  alt="Supaio 开发路线：基础、C、Python、Go 与系统"
-/>
+<a href="./jr-route-map.mp4">
+  <img
+    width="100%"
+    src="./jr-route-map.png"
+    alt="点击查看 120 帧/秒视频。Supaio 开发线的山手线风格循环动画。行驶方向为 AGI、ASI，下一站 AGI。沿线经过 Python（2023 年）、C（2024 年）、Go、Claude 和 Codex（均为 2026 年）。"
+  />
+</a>
 
 <p>
   <img
-    src="https://skillicons.dev/icons?i=c,python,go,windows,linux&theme=light"
-    alt="C、Python、Go、Windows 与 Linux"
+    src="https://skillicons.dev/icons?i=python,c,go,windows,linux&theme=light"
+    alt="Python、C、Go、Windows 与 Linux"
   />
 </p>
 
@@ -125,9 +127,8 @@
 ### 参与的项目
 
 <p>
-  参与的项目：
   <a href="https://github.com/qiransy/managing-zotero-skill">
-    https://github.com/qiransy/managing-zotero-skill
+    Zotero 文献管理技能
   </a>
 </p>
 
